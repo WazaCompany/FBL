@@ -2,8 +2,15 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <style>
+        h1 {text-align: center;}
+        a {
+
+          text-decoration: none;
+          }
+    </style>
     <title>Please FBLogin!</title>
-    <h1>지금부터 내 마음을 말할게~</h1>
+    <a href="main.html"><h1>Main OK?</h1></a>
 
     <script>
     var checkLoginStatus = function(response) {
@@ -48,15 +55,15 @@
 </script>
   </head>
   <body>
-    <ol>
 
-    <a href="FBL.html">페이스북 로그인 제발 부탁해!</a>
-    <a href="ari.html">Ari's thank you Next</a>
+<p>
+    <li><a href="FBL.html">페이스북 로그인 제발 부탁해!</a>
+    <li><a href="ari.html">Ari's thank you Next</a>
+</p>
 
-    </ol>
 결국 내가 먼저 말했는지도 몰라~
 사실 네가 먼저 말해주길 바랬었지만
-오빠야 너 나랑 만날래~
+오빠야 너 나랑 만날래~ <br>
 
 <input type="button" id="authBtn" value="checking..." onclick="
       if(this.value === 'Login'){
